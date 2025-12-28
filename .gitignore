@@ -1,0 +1,20 @@
+# Data files (fetched separately, not version controlled)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# Output artifacts
+out/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

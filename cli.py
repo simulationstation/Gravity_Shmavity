@@ -126,12 +126,23 @@ def fit(data: Path, max_k: int = 10, include_m1: bool = True, alpha: float = 1 /
     write_report(out / "report.md", preferred_k, delta, ppc, threshold, cv_error)
 
 
+def _numpy_serializer(obj):
+    """Convert numpy types for JSON serialization."""
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    if isinstance(obj, (np.float32, np.float64)):
+        return float(obj)
+    if isinstance(obj, (np.int32, np.int64)):
+        return int(obj)
+    raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
+
+
 @app.command()
 def calibrate(preset: str, alpha: float = 0.05, out: Path = Path("out/calib"), runs: int = 100) -> None:
     out.mkdir(parents=True, exist_ok=True)
     ladder = Ladder()
     result = calibrate_null(preset=preset, runs=runs, max_k=6, ladder=ladder, seed=123)
-    (out / "calibration.json").write_text(json.dumps(result, indent=2, default=float))
+    (out / "calibration.json").write_text(json.dumps(result, indent=2, default=_numpy_serializer))
     (out / "meta.json").write_text(json.dumps({"alpha": alpha, "preset": preset}, indent=2))
 
 
