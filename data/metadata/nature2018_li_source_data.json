@@ -1,0 +1,111 @@
+{
+  "dataset_id": "nature2018_li",
+  "citation": {
+    "authors": [
+      "Li Q",
+      "Xue C",
+      "Liu JP",
+      "Wu JF",
+      "Yang SQ",
+      "Shao CG",
+      "Quan LD",
+      "Tan WH",
+      "Tu LC",
+      "Liu Q",
+      "Xu H",
+      "Liu LX",
+      "Wang QL",
+      "Hu ZK",
+      "Zhou ZB",
+      "Luo PS",
+      "Wu SC",
+      "Milyukov V",
+      "Luo J"
+    ],
+    "title": "Measurements of the gravitational constant using two independent methods",
+    "journal": "Nature",
+    "year": 2018,
+    "volume": 560,
+    "pages": "582-588",
+    "doi": "10.1038/s41586-018-0431-5"
+  },
+  "files_downloaded": [
+    {
+      "filename": "source_data_moesm2.xlsx",
+      "size_bytes": 1152664,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM2_ESM.xlsx",
+      "description": "Power spectral density data for compensation (Supplementary Figure 1)"
+    },
+    {
+      "filename": "source_data_moesm3.xlsx",
+      "size_bytes": 4169004,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM3_ESM.xlsx",
+      "description": "Main experimental data - contains ToS period time series (sheets a,b), individual G measurements for ToS (sheet c), AAF individual G measurements (sheet f), power spectra (sheet d,e)"
+    },
+    {
+      "filename": "source_data_moesm4.xlsx",
+      "size_bytes": 10330,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM4_ESM.xlsx",
+      "description": "Historical G measurements compilation (17 experiments from 1982-2018)"
+    },
+    {
+      "filename": "source_data_moesm5.xlsx",
+      "size_bytes": 36733,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM5_ESM.xlsx",
+      "description": "Fiber amplitude stability data (coated vs uncoated)"
+    },
+    {
+      "filename": "source_data_moesm6.xlsx",
+      "size_bytes": 15013,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM6_ESM.xlsx",
+      "description": "Temperature vs acceleration data (Extended Data Figure 2)"
+    },
+    {
+      "filename": "source_data_moesm7.xlsx",
+      "size_bytes": 15635,
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM7_ESM.xlsx",
+      "description": "Period measurements comparing ground and underground (Extended Data Figure 7)"
+    }
+  ],
+  "total_download_size_bytes": 5399379,
+  "date_fetched": "2025-12-28",
+  "staged_files": {
+    "nature2018_li_tos_individual.csv": {
+      "rows": 8,
+      "description": "Time-of-Swing method: 7 individual fiber measurements + 1 weighted average",
+      "G_range": "6.674017 - 6.674274 (\u00d710\u207b\u00b9\u00b9)"
+    },
+    "nature2018_li_aaf_individual.csv": {
+      "rows": 30,
+      "description": "Angular Acceleration Feedback method: 29 individual runs (AAF-I: 4, AAF-II: 10, AAF-III: 15) + 1 weighted average",
+      "G_range": "6.674302 - 6.674607 (\u00d710\u207b\u00b9\u00b9)"
+    },
+    "nature2018_li_period_timeseries.csv": {
+      "rows": 40,
+      "description": "Period measurements at near/far positions over ~60 days (ToS method)"
+    },
+    "nature2018_li_historical_compilation.csv": {
+      "rows": 17,
+      "description": "Historical G measurements compilation from NIST-82 to HUST-18"
+    }
+  },
+  "key_results": {
+    "ToS_method": {
+      "G_value": "6.674184 \u00d7 10\u207b\u00b9\u00b9 m\u00b3 kg\u207b\u00b9 s\u207b\u00b2",
+      "uncertainty": "0.000078 \u00d7 10\u207b\u00b9\u00b9",
+      "relative_uncertainty_ppm": 11.64
+    },
+    "AAF_method": {
+      "G_value": "6.674484 \u00d7 10\u207b\u00b9\u00b9 m\u00b3 kg\u207b\u00b9 s\u207b\u00b2",
+      "uncertainty": "0.000078 \u00d7 10\u207b\u00b9\u00b9",
+      "relative_uncertainty_ppm": 11.61
+    },
+    "difference_between_methods_ppm": 45,
+    "agreement": "Both values agree within 3\u03c3"
+  },
+  "units": {
+    "G_value": "10\u207b\u00b9\u00b9 m\u00b3 kg\u207b\u00b9 s\u207b\u00b2",
+    "period": "seconds",
+    "time": "days"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_id": "codata_2022",
+  "citation": {
+    "authors": ["Tiesinga E", "Mohr PJ", "Newell DB", "Taylor BN"],
+    "title": "CODATA Recommended Values of the Fundamental Physical Constants: 2022",
+    "source": "NIST / arXiv:2409.03787",
+    "year": 2024,
+    "doi": "10.48550/arXiv.2409.03787"
+  },
+  "files_downloaded": [
+    {
+      "filename": "codata_recommended_values.csv",
+      "description": "CODATA recommended G values from 1973-2022",
+      "contains": "Historical progression of CODATA recommended values showing uncertainty evolution"
+    }
+  ],
+  "date_fetched": "2025-12-28",
+  "access_method": "Extracted from NIST physics.nist.gov and PMC8290936",
+  "data_quality_notes": [
+    "Official CODATA Task Group recommended values",
+    "The 2018 and 2022 values are based on 16 measurements with 3.9x expansion factor",
+    "Expansion factor applied because chi-squared test showed inconsistency between experiments",
+    "No new G measurements between 2018 and 2022 adjustments"
+  ],
+  "key_statistics": {
+    "current_value": "6.67430(15) x 10^-11 m^3 kg^-1 s^-2",
+    "relative_uncertainty_ppm": 22,
+    "num_input_measurements": 16,
+    "expansion_factor": 3.9,
+    "chi_squared_before_expansion": "~60 for 15 dof (highly inconsistent)",
+    "inter_experiment_scatter_ppm": "~500"
+  }
+}

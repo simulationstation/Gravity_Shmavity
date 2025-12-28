@@ -1,0 +1,9 @@
+run_index,G_value_1e11,G_sigma_1e11,is_average,config,method,source
+1,6.674154,9.5e-05,False,fiber_1,time_of_swing,MOESM3_sheet_c
+2,6.674222,9.8e-05,False,fiber_2,time_of_swing,MOESM3_sheet_c
+3,6.674237,0.000219,False,fiber_3,time_of_swing,MOESM3_sheet_c
+4,6.674274,0.000103,False,fiber_4,time_of_swing,MOESM3_sheet_c
+5,6.674266,9.4e-05,False,fiber_5,time_of_swing,MOESM3_sheet_c
+6,6.674017,0.000117,False,fiber_6,time_of_swing,MOESM3_sheet_c
+7,6.674105,0.000116,False,fiber_7,time_of_swing,MOESM3_sheet_c
+8,6.674184,7.8e-05,True,weighted_average,time_of_swing,MOESM3_sheet_c

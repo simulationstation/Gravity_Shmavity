@@ -1,5 +1,5 @@
-# Data files (fetched separately, not version controlled)
-data/
+# Raw data files (large, can be re-fetched)
+data/raw/
 
 # Python
 __pycache__/

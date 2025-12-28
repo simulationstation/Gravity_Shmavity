@@ -1,0 +1,27 @@
+dataset_id,config_id,method_type,geometry_mode,reversal_indicator,laboratory,publication_year,notes
+nsr_compilation,UWash-00,angular_acceleration,rotating_turntable,continuous_rotation,University of Washington,2000,Gundlach method - eliminated fiber systematics
+nsr_compilation,BIPM-01,electrostatic,strip_pendulum,field_reversal,BIPM,2001,Electrostatic servo compensation
+nsr_compilation,UWup-02,fabry_perot,suspended_mirror,position_modulation,University of Wuppertal,2002,Optical cavity displacement
+nsr_compilation,MSL-03,electrostatic,strip_pendulum,field_reversal,MSL New Zealand,2003,Based on BIPM design
+nsr_compilation,HUST-05,time_of_swing,flat_pendulum,source_position_swap,HUST,2005,Early HUST torsion pendulum
+nsr_compilation,UZur-06,beam_balance,commercial_balance,mass_reversal,University of Zurich,2006,Modified Mettler balance
+nsr_compilation,HUST-09,time_of_swing,flat_pendulum,source_position_swap,HUST,2009,Improved systematics control
+nsr_compilation,JILA-10,fabry_perot,suspended_mirror,source_modulation,JILA,2010,Simplified cavity design
+nsr_compilation,BIPM-14,electrostatic,strip_pendulum,field_reversal,BIPM,2014,Long-term stability improvements
+nsr_compilation,LENS-14,atom_interferometry,vertical_fountain,phase_modulation,LENS Florence,2014,First competitive atom interferometry
+nsr_compilation,UCI-14,time_of_swing_cryo,flat_pendulum_cryo,source_position_swap,UC Irvine,2014,4K cryogenic operation
+nsr_compilation,HUST-18-TOS,time_of_swing,flat_pendulum,source_position_swap,HUST,2018,Li et al Nature - TOS method
+nsr_compilation,HUST-18-AAF,angular_acceleration,rotating_turntable,continuous_rotation,HUST,2018,Li et al Nature - AAF method
+codata_2022,CODATA-2022,recommended,weighted_average,na,CODATA Task Group,2022,Weighted mean of 16 measurements
+nature2018_li,TOS_fiber_1,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_1 - 4 different fibers used
+nature2018_li,TOS_fiber_2,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_2 - 4 different fibers used
+nature2018_li,TOS_fiber_3,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_3 - 4 different fibers used
+nature2018_li,TOS_fiber_4,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_4 - 4 different fibers used
+nature2018_li,TOS_fiber_5,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_5 - 4 different fibers used
+nature2018_li,TOS_fiber_6,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_6 - 4 different fibers used
+nature2018_li,TOS_fiber_7,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method fiber_7 - 4 different fibers used
+nature2018_li,TOS_weighted_average,time_of_swing,flat_pendulum,near_far_position,HUST,2018,ToS method weighted_average - 4 different fibers used
+nature2018_li,AAF_AAF-I,angular_acceleration_feedback,rotating_turntable,continuous_rotation,HUST,2018,AAF method AAF-I
+nature2018_li,AAF_AAF-II,angular_acceleration_feedback,rotating_turntable,continuous_rotation,HUST,2018,AAF method AAF-II
+nature2018_li,AAF_AAF-III,angular_acceleration_feedback,rotating_turntable,continuous_rotation,HUST,2018,AAF method AAF-III
+nature2018_li,AAF_weighted_average,angular_acceleration_feedback,rotating_turntable,continuous_rotation,HUST,2018,AAF method weighted_average

@@ -1,0 +1,53 @@
+dataset_id,method_id,config_id,timestamp_or_run_index,G_value,G_sigma,G_value_1e11,G_sigma_1e11,uncertainty_ppm,notes
+nsr_compilation,angular_acceleration,UWash-00,2000,6.674255e-11,9.2e-17,6.674255,9.2e-05,14.0,Gundlach & Merkowitz - gold standard angular acceleration method
+nsr_compilation,electrostatic,BIPM-01,2001,6.67559e-11,2.7e-16,6.67559,0.00027,40.0,BIPM electrostatic compensation
+nsr_compilation,fabry_perot,UWup-02,2002,6.67422e-11,9.8e-16,6.67422,0.00098,150.0,University of Wuppertal Fabry-Perot
+nsr_compilation,electrostatic,MSL-03,2003,6.67387e-11,2.7e-16,6.67387,0.00027,40.0,NZ Measurement Standards Lab
+nsr_compilation,time_of_swing,HUST-05,2005,6.67222e-11,8.7e-16,6.67222,0.00087,130.0,HUST early time-of-swing
+nsr_compilation,beam_balance,UZur-06,2006,6.67425e-11,1.2e-16,6.67425,0.00012,19.0,Zurich beam balance - very precise
+nsr_compilation,time_of_swing,HUST-09,2009,6.67349e-11,1.8e-16,6.67349,0.00018,27.0,HUST improved time-of-swing
+nsr_compilation,fabry_perot,JILA-10,2010,6.6726e-11,2.5e-16,6.6726,0.00025,37.0,JILA Fabry-Perot cavity
+nsr_compilation,electrostatic,BIPM-14,2014,6.67554e-11,1.6e-16,6.67554,0.00016,24.0,BIPM improved electrostatic
+nsr_compilation,atom_interferometry,LENS-14,2014,6.67191e-11,9.9e-16,6.67191,0.00099,150.0,Cold atom interferometry - Florence
+nsr_compilation,time_of_swing_cryo,UCI-14,2014,6.67435e-11,1.3e-16,6.67435,0.00013,19.0,Cryogenic time-of-swing - UC Irvine
+nsr_compilation,time_of_swing,HUST-18-TOS,2018,6.674184e-11,7.8e-17,6.674184,7.8e-05,12.0,Li et al Nature 2018 - time of swing - MOST PRECISE
+nsr_compilation,angular_acceleration,HUST-18-AAF,2018,6.674484e-11,7.8e-17,6.674484,7.8e-05,12.0,Li et al Nature 2018 - angular accel feedback - MOST PRECISE
+codata_2022,recommended,CODATA-2022,2022,6.6743e-11,1.5e-16,6.6743,0.00015,22.0,CODATA 2022 recommended value - 16 measurements with 3.9x expansion
+nature2018_li,time_of_swing,TOS_fiber_1,1,6.674153999999999e-11,9.5e-16,6.674154,9.5e-05,14.234013779124666,Li et al Nature 2018 ToS - fiber_1 - individual run
+nature2018_li,time_of_swing,TOS_fiber_2,2,6.674222e-11,9.8e-16,6.674222,9.8e-05,14.683359348849947,Li et al Nature 2018 ToS - fiber_2 - individual run
+nature2018_li,time_of_swing,TOS_fiber_3,3,6.674236999999999e-11,2.19e-15,6.674237,0.000219,32.81273949366797,Li et al Nature 2018 ToS - fiber_3 - individual run
+nature2018_li,time_of_swing,TOS_fiber_4,4,6.674273999999999e-11,1.03e-15,6.674274,0.000103,15.432390099657283,Li et al Nature 2018 ToS - fiber_4 - individual run
+nature2018_li,time_of_swing,TOS_fiber_5,5,6.674266e-11,9.399999999999999e-16,6.674266,9.4e-05,14.083945710284846,Li et al Nature 2018 ToS - fiber_5 - individual run
+nature2018_li,time_of_swing,TOS_fiber_6,6,6.674017e-11,1.1699999999999999e-15,6.674017,0.000117,17.530671558073646,Li et al Nature 2018 ToS - fiber_6 - individual run
+nature2018_li,time_of_swing,TOS_fiber_7,7,6.674104999999999e-11,1.16e-15,6.674105,0.000116,17.380607587084707,Li et al Nature 2018 ToS - fiber_7 - individual run
+nature2018_li,time_of_swing,TOS_weighted_average,8,6.674184e-11,7.8e-16,6.674184,7.8e-05,11.686821939580929,Li et al Nature 2018 ToS - weighted_average - AVERAGE
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,1,6.674534e-11,1.04e-15,6.674534,0.000104,15.581612139514156,Li et al Nature 2018 AAF - AAF-I - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,2,6.674585e-11,9.9e-16,6.674585,9.9e-05,14.832382837285012,Li et al Nature 2018 AAF - AAF-I - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,3,6.674473e-11,1.0699999999999998e-15,6.674473,0.000107,16.031228233300215,Li et al Nature 2018 AAF - AAF-I - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,4,6.674543e-11,9.5e-16,6.674543,9.5e-05,14.233184204521569,Li et al Nature 2018 AAF - AAF-I - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,7,6.674431e-11,8.5e-16,6.674431,8.5e-05,12.7351679866044,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,8,6.674399e-11,8.5e-16,6.674399,8.5e-05,12.73522904459263,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,9,6.674415999999999e-11,8.6e-16,6.674416,8.6e-05,12.88502244990423,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,10,6.674424e-11,9e-16,6.674424,9e-05,13.484309657282786,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,11,6.674301999999999e-11,8.6e-16,6.674302,8.6e-05,12.885242531728412,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,12,6.674304e-11,8.3e-16,6.674304,8.3e-05,12.435753600675067,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,13,6.674327e-11,8.5e-16,6.674327,8.5e-05,12.735366427206818,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,14,6.674337999999999e-11,8.699999999999999e-16,6.674338,8.7e-05,13.035000624781064,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,15,6.674362e-11,8.5e-16,6.674362,8.5e-05,12.735299643621369,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,16,6.674446999999999e-11,8.6e-16,6.674447,8.6e-05,12.884962604392545,Li et al Nature 2018 AAF - AAF-II - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,19,6.674518999999999e-11,7.8e-16,6.674519,7.8e-05,11.686235367672186,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,20,6.674468e-11,7.899999999999999e-16,6.674468,7.9e-05,11.836149338044619,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,21,6.674534e-11,8e-16,6.674534,8e-05,11.98585549193397,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,22,6.674515999999999e-11,8e-16,6.674516,8e-05,11.985887815685812,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,23,6.674495e-11,8e-16,6.674495,8e-05,11.985925526949979,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,24,6.67456e-11,8.399999999999999e-16,6.67456,8.4e-05,12.585099242496884,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,25,6.674539e-11,8.399999999999999e-16,6.674539,8.4e-05,12.5851388388022,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,26,6.674554999999999e-11,8.099999999999999e-16,6.674555,8.1e-05,12.135640503374383,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,27,6.67452e-11,8.099999999999999e-16,6.67452,8.1e-05,12.135704140522465,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,28,6.674551e-11,7.899999999999999e-16,6.674551,7.9e-05,11.83600215205487,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,29,6.674607e-11,7.899999999999999e-16,6.674607,7.9e-05,11.835902847912992,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,30,6.67458e-11,8.399999999999999e-16,6.67458,8.4e-05,12.58506153196156,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,31,6.674497e-11,8e-16,6.674497,8e-05,11.985921935390788,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,32,6.674538e-11,8e-16,6.674538,8e-05,11.98584830890168,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,33,6.674543e-11,8.199999999999999e-16,6.674543,8.2e-05,12.285485313376512,Li et al Nature 2018 AAF - AAF-III - individual run
+nature2018_li,angular_acceleration_feedback,AAF_weighted_average,37,6.674484e-11,7.8e-16,6.674484,7.8e-05,11.686296648549911,Li et al Nature 2018 AAF - weighted_average - AVERAGE
