@@ -1,21 +1,22 @@
-import subprocess
 from pathlib import Path
 
+from typer.testing import CliRunner
 
-def test_cli_simulate_and_fit(tmp_path: Path):
-    simulate_out = tmp_path / "synth"
-    fit_out = tmp_path / "fit"
-    subprocess.check_call(["python3", "cli.py", "simulate", "gravity_synth", str(simulate_out)])
-    subprocess.check_call(
+from m3_squared_tests.cli import app
+
+
+runner = CliRunner()
+
+
+def test_cli_pred1_smoke(tmp_path: Path):
+    result = runner.invoke(
+        app,
         [
-            "python3",
-            "cli.py",
-            "fit",
-            str(simulate_out / "data.csv"),
-            "--max-k",
-            "3",
+            "pred1",
+            "--staged",
+            "data/staged",
             "--out",
-            str(fit_out),
-        ]
+            str(tmp_path / "pred1"),
+        ],
     )
-    assert (fit_out / "report.md").exists()
+    assert result.exit_code == 0

@@ -1,7 +1,7 @@
 [project]
-name = "mverse-ladder"
+name = "m3-squared-tests"
 version = "0.1.0"
-description = "Layered substrate ladder inference toolkit"
+description = "M3 squared-coupling prediction tests and residual fit harness"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
@@ -13,11 +13,8 @@ dependencies = [
   "typer>=0.9",
 ]
 
-[project.optional-dependencies]
-full = ["dynesty", "emcee"]
-
 [project.scripts]
-ladder = "cli:app"
+m3test = "m3_squared_tests.cli:app"
 
 [tool.pytest.ini_options]
 addopts = "-q"
