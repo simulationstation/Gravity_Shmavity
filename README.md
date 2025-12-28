@@ -1,6 +1,6 @@
-# Mverse Ladder
+# M3 Squared Tests
 
-Reproducible research codebase to test a layered substrate hypothesis (M0..M10) with a fixed alpha ladder of couplings.
+This repository implements five falsifiable M3 “squared-coupling” prediction tests plus a minimal M3 (α²) gravity residual model-fit harness. The tests check internal consistency of an α²-scaled hypothesis against nuisance alternatives; they are **not** evidence of new physics.
 
 ## Quickstart
 
@@ -9,29 +9,41 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 
-ladder simulate --preset gravity_synth --out out/synth_grav
-ladder fit --data out/synth_grav/data.csv --max_k 10 --out out/fit_grav
-
-ladder simulate --preset timeseries_synth --out out/synth_ts
-ladder fit --data out/synth_ts/data.npz --max_k 10 --out out/fit_ts
-
-ladder calibrate --preset gravity_synth --alpha 0.05 --out out/calib
-ladder end-to-end --preset gravity_synth --max_k 10 --out out/e2e
+m3test validate-data --staged data/staged
+m3test pred1 --staged data/staged --out outputs/pred1
+m3test pred2 --staged data/staged --out outputs/pred2
+m3test pred3 --staged data/staged --out outputs/pred3
+m3test pred4 --staged data/staged --out outputs/pred4
+m3test pred5 --staged data/staged --out outputs/pred5
+m3test m3fit --staged data/staged --out outputs/m3fit
+m3test all --staged data/staged --out outputs/all
 ```
 
-## Data formats
+Each command writes:
+- `results.json`
+- `report.md`
+- `figures/*.png`
 
-### Gravity configuration CSV
-Required columns:
-- `y`: observed residual or fractional deviation
-- `temp`: temperature proxy
-- `geom`: geometry proxy
-- `config_0..config_{d-1}`: configuration embedding features
+All figures are generated at runtime into `outputs/`.
 
-### Time series NPZ
-Arrays:
-- `t`: time array
-- `ch1`, `ch2`: channel arrays
+## Staged data
 
-## Reproducibility
-All simulation and fitting routines accept a `seed` parameter. Plots and reports are saved in the output directories.
+The CLI expects the staged CSVs in `data/staged/`:
+- `g_measurements_minimal.csv`
+- `g_configs_minimal.csv`
+
+Optional mapping files:
+- `data/staged/topology_map.csv` with columns `config_id,topology_proxy`
+- `data/staged/proxy_map.csv` with columns `config_id,quality_proxy`
+
+## Tests
+
+1. **Sign-blind intensity law** (`pred1`): checks reversal invariance using paired magnitudes with an equivalence tolerance tied to α².
+2. **Topology-squared scaling** (`pred2`): compares linear vs. T² fits and reports the quadratic coefficient relative to α².
+3. **Symmetry null suppression** (`pred3`): compares raw vs. nulled amplitudes and reports suppression factors.
+4. **Threshold turn-on** (`pred4`): compares smooth fits against a sigmoid-squared threshold model for quality/coherence proxies.
+5. **Cross-domain α² anchor** (`pred5`): compares dataset-scale clustering near α² with a permutation baseline.
+
+## Minimal M3 gravity harness
+
+`m3fit` compares a nuisance-only regression against a model with a single α²-scaled coupling term. It is an identifiability test, not a full GR replacement.
