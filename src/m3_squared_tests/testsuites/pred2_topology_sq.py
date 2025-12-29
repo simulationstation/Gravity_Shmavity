@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Optional
 
 import numpy as np
 import pandas as pd
@@ -12,7 +13,7 @@ from m3_squared_tests.reporting.figures import save_scatter_with_fit
 from m3_squared_tests.reporting.report_md import write_report
 from m3_squared_tests.stats.model_selection import bic
 from m3_squared_tests.stats.regression import cv_mse, fit_linear
-from m3_squared_tests.testsuites.utils import compute_residuals, safe_group_mean
+from m3_squared_tests.testsuites.utils import compute_residuals, numpy_safe_json, safe_group_mean
 
 
 def _bootstrap_c(x: np.ndarray, y: np.ndarray, samples: int = 2000) -> tuple[float, float]:
@@ -25,7 +26,7 @@ def _bootstrap_c(x: np.ndarray, y: np.ndarray, samples: int = 2000) -> tuple[flo
     return float(np.percentile(coefs, 2.5)), float(np.percentile(coefs, 97.5))
 
 
-def run_pred2(staged, out_dir: Path, topology_map: Path | None = None) -> dict:
+def run_pred2(staged, out_dir: Path, topology_map: Optional[Path] = None) -> dict:
     out_dir = Path(out_dir)
     figures_dir = out_dir / "figures"
     residuals = compute_residuals(staged.merged)
@@ -41,7 +42,7 @@ def run_pred2(staged, out_dir: Path, topology_map: Path | None = None) -> dict:
     if "topology_proxy" not in df.columns:
         result = {"test": "pred2_topology_sq", "status": "insufficient_data"}
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+        (out_dir / "results.json").write_text(numpy_safe_json(result))
         write_report(
             out_dir,
             "Prediction 2: Topology-squared scaling",
@@ -55,7 +56,7 @@ def run_pred2(staged, out_dir: Path, topology_map: Path | None = None) -> dict:
     if len(grouped) < 3:
         result = {"test": "pred2_topology_sq", "status": "insufficient_data"}
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+        (out_dir / "results.json").write_text(numpy_safe_json(result))
         write_report(
             out_dir,
             "Prediction 2: Topology-squared scaling",
@@ -120,6 +121,6 @@ def run_pred2(staged, out_dir: Path, topology_map: Path | None = None) -> dict:
     ]
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+    (out_dir / "results.json").write_text(numpy_safe_json(result))
     write_report(out_dir, "Prediction 2: Topology-squared scaling", summary, sections)
     return result

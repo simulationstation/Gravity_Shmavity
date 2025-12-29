@@ -10,7 +10,7 @@ from m3_squared_tests.constants import alpha4
 from m3_squared_tests.metrics.robust_scale import mad
 from m3_squared_tests.reporting.figures import save_bar_plot
 from m3_squared_tests.reporting.report_md import write_report
-from m3_squared_tests.testsuites.utils import compute_residuals
+from m3_squared_tests.testsuites.utils import compute_residuals, numpy_safe_json
 
 
 def run_pred3(staged, out_dir: Path) -> dict:
@@ -37,7 +37,7 @@ def run_pred3(staged, out_dir: Path) -> dict:
     if not suppression:
         result = {"test": "pred3_symmetry_null", "status": "insufficient_data"}
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+        (out_dir / "results.json").write_text(numpy_safe_json(result))
         write_report(
             out_dir,
             "Prediction 3: Symmetry null suppression",
@@ -79,6 +79,6 @@ def run_pred3(staged, out_dir: Path) -> dict:
     ]
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+    (out_dir / "results.json").write_text(numpy_safe_json(result))
     write_report(out_dir, "Prediction 3: Symmetry null suppression", summary, sections)
     return result

@@ -10,7 +10,7 @@ from m3_squared_tests.constants import ALPHA2
 from m3_squared_tests.metrics.robust_scale import mad
 from m3_squared_tests.reporting.figures import save_bar_plot
 from m3_squared_tests.reporting.report_md import write_report
-from m3_squared_tests.testsuites.utils import compute_residuals
+from m3_squared_tests.testsuites.utils import compute_residuals, numpy_safe_json
 
 
 def _closeness(scales: np.ndarray, anchor: float) -> float:
@@ -34,7 +34,7 @@ def run_pred5(staged, out_dir: Path) -> dict:
     if len(scales) < 2:
         result = {"test": "pred5_cross_domain_anchor", "status": "insufficient_data"}
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+        (out_dir / "results.json").write_text(numpy_safe_json(result))
         write_report(
             out_dir,
             "Prediction 5: Cross-domain anchor",
@@ -83,6 +83,6 @@ def run_pred5(staged, out_dir: Path) -> dict:
     ]
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+    (out_dir / "results.json").write_text(numpy_safe_json(result))
     write_report(out_dir, "Prediction 5: Cross-domain anchor", summary, sections)
     return result

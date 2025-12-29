@@ -11,7 +11,7 @@ from m3_squared_tests.reporting.figures import save_scatter_with_fit
 from m3_squared_tests.reporting.report_md import write_report
 from m3_squared_tests.stats.model_selection import bic
 from m3_squared_tests.stats.regression import cv_mse, fit_linear
-from m3_squared_tests.testsuites.utils import compute_residuals
+from m3_squared_tests.testsuites.utils import compute_residuals, numpy_safe_json
 
 
 def _sigmoid(z: np.ndarray) -> np.ndarray:
@@ -44,8 +44,8 @@ def run_pred4(staged, out_dir: Path, proxy_map: Path | None = None) -> dict:
     if "quality_proxy" not in df.columns and proxy_map is not None:
         mapping = pd.read_csv(proxy_map)
         if "config_id" not in mapping.columns or "quality_proxy" not in mapping.columns:
-            raise ValueError(\"proxy_map must include config_id and quality_proxy columns.\")
-        df = df.merge(mapping[[\"config_id\", \"quality_proxy\"]], on=\"config_id\", how=\"left\")
+            raise ValueError("proxy_map must include config_id and quality_proxy columns.")
+        df = df.merge(mapping[["config_id", "quality_proxy"]], on="config_id", how="left")
 
     if "quality_proxy" not in df.columns:
         if "uncertainty_ppm" in df.columns:
@@ -53,7 +53,7 @@ def run_pred4(staged, out_dir: Path, proxy_map: Path | None = None) -> dict:
         else:
             result = {"test": "pred4_threshold", "status": "insufficient_data"}
             out_dir.mkdir(parents=True, exist_ok=True)
-            (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+            (out_dir / "results.json").write_text(numpy_safe_json(result))
             write_report(
                 out_dir,
                 "Prediction 4: Threshold turn-on",
@@ -66,7 +66,7 @@ def run_pred4(staged, out_dir: Path, proxy_map: Path | None = None) -> dict:
     if len(df) < 5:
         result = {"test": "pred4_threshold", "status": "insufficient_data"}
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+        (out_dir / "results.json").write_text(numpy_safe_json(result))
         write_report(
             out_dir,
             "Prediction 4: Threshold turn-on",
@@ -131,6 +131,6 @@ def run_pred4(staged, out_dir: Path, proxy_map: Path | None = None) -> dict:
     ]
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "results.json").write_text(json.dumps(result, indent=2))
+    (out_dir / "results.json").write_text(numpy_safe_json(result))
     write_report(out_dir, "Prediction 4: Threshold turn-on", summary, sections)
     return result

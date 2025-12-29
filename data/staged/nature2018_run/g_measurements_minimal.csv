@@ -1,0 +1,37 @@
+dataset_id,method_id,config_id,run_id,point_index,G_value,G_value_1e11,G_sigma,G_sigma_1e11,units,reversal_flag,notes
+nature2018_li,time_of_swing,TOS_fiber_1,1,1,6.674153999999999e-11,6.674154,9.5e-16,9.5e-05,m3 kg-1 s-2,,ToS fiber 1 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_2,2,2,6.674222e-11,6.674222,9.8e-16,9.8e-05,m3 kg-1 s-2,,ToS fiber 2 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_3,3,3,6.674236999999999e-11,6.674237,2.19e-15,0.000219,m3 kg-1 s-2,,ToS fiber 3 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_4,4,4,6.674273999999999e-11,6.674274,1.03e-15,0.000103,m3 kg-1 s-2,,ToS fiber 4 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_5,5,5,6.674266e-11,6.674266,9.399999999999999e-16,9.4e-05,m3 kg-1 s-2,,ToS fiber 5 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_6,6,6,6.674017e-11,6.674017,1.1699999999999999e-15,0.000117,m3 kg-1 s-2,,ToS fiber 6 - near/far averaged
+nature2018_li,time_of_swing,TOS_fiber_7,7,7,6.674104999999999e-11,6.674105,1.16e-15,0.000116,m3 kg-1 s-2,,ToS fiber 7 - near/far averaged
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,1,8,6.674534e-11,6.674534,1.04e-15,0.000104,m3 kg-1 s-2,,AAF AAF-I run 1
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,2,9,6.674585e-11,6.674585,9.9e-16,9.9e-05,m3 kg-1 s-2,,AAF AAF-I run 2
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,3,10,6.674473e-11,6.674473,1.0699999999999998e-15,0.000107,m3 kg-1 s-2,,AAF AAF-I run 3
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,4,11,6.674543e-11,6.674543,9.5e-16,9.5e-05,m3 kg-1 s-2,,AAF AAF-I run 4
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,7,12,6.674431e-11,6.674431,8.5e-16,8.5e-05,m3 kg-1 s-2,,AAF AAF-II run 7
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,8,13,6.674399e-11,6.674399,8.5e-16,8.5e-05,m3 kg-1 s-2,,AAF AAF-II run 8
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,9,14,6.674415999999999e-11,6.674416,8.6e-16,8.6e-05,m3 kg-1 s-2,,AAF AAF-II run 9
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,10,15,6.674424e-11,6.674424,9e-16,9e-05,m3 kg-1 s-2,,AAF AAF-II run 10
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,11,16,6.674301999999999e-11,6.674302,8.6e-16,8.6e-05,m3 kg-1 s-2,,AAF AAF-II run 11
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,12,17,6.674304e-11,6.674304,8.3e-16,8.3e-05,m3 kg-1 s-2,,AAF AAF-II run 12
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,13,18,6.674327e-11,6.674327,8.5e-16,8.5e-05,m3 kg-1 s-2,,AAF AAF-II run 13
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,14,19,6.674337999999999e-11,6.674338,8.699999999999999e-16,8.7e-05,m3 kg-1 s-2,,AAF AAF-II run 14
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,15,20,6.674362e-11,6.674362,8.5e-16,8.5e-05,m3 kg-1 s-2,,AAF AAF-II run 15
+nature2018_li,angular_acceleration_feedback,AAF_AAF-II,16,21,6.674446999999999e-11,6.674447,8.6e-16,8.6e-05,m3 kg-1 s-2,,AAF AAF-II run 16
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,19,22,6.674518999999999e-11,6.674519,7.8e-16,7.8e-05,m3 kg-1 s-2,,AAF AAF-III run 19
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,20,23,6.674468e-11,6.674468,7.899999999999999e-16,7.9e-05,m3 kg-1 s-2,,AAF AAF-III run 20
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,21,24,6.674534e-11,6.674534,8e-16,8e-05,m3 kg-1 s-2,,AAF AAF-III run 21
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,22,25,6.674515999999999e-11,6.674516,8e-16,8e-05,m3 kg-1 s-2,,AAF AAF-III run 22
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,23,26,6.674495e-11,6.674495,8e-16,8e-05,m3 kg-1 s-2,,AAF AAF-III run 23
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,24,27,6.67456e-11,6.67456,8.399999999999999e-16,8.4e-05,m3 kg-1 s-2,,AAF AAF-III run 24
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,25,28,6.674539e-11,6.674539,8.399999999999999e-16,8.4e-05,m3 kg-1 s-2,,AAF AAF-III run 25
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,26,29,6.674554999999999e-11,6.674555,8.099999999999999e-16,8.1e-05,m3 kg-1 s-2,,AAF AAF-III run 26
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,27,30,6.67452e-11,6.67452,8.099999999999999e-16,8.1e-05,m3 kg-1 s-2,,AAF AAF-III run 27
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,28,31,6.674551e-11,6.674551,7.899999999999999e-16,7.9e-05,m3 kg-1 s-2,,AAF AAF-III run 28
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,29,32,6.674607e-11,6.674607,7.899999999999999e-16,7.9e-05,m3 kg-1 s-2,,AAF AAF-III run 29
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,30,33,6.67458e-11,6.67458,8.399999999999999e-16,8.4e-05,m3 kg-1 s-2,,AAF AAF-III run 30
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,31,34,6.674497e-11,6.674497,8e-16,8e-05,m3 kg-1 s-2,,AAF AAF-III run 31
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,32,35,6.674538e-11,6.674538,8e-16,8e-05,m3 kg-1 s-2,,AAF AAF-III run 32
+nature2018_li,angular_acceleration_feedback,AAF_AAF-III,33,36,6.674543e-11,6.674543,8.199999999999999e-16,8.2e-05,m3 kg-1 s-2,,AAF AAF-III run 33

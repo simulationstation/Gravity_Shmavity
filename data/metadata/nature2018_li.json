@@ -1,0 +1,105 @@
+{
+  "dataset_id": "nature2018_li",
+  "doi": "10.1038/s41586-018-0431-5",
+  "title": "Measurements of the gravitational constant using two independent methods",
+  "authors": [
+    "Li Q",
+    "Xue C",
+    "Liu JP",
+    "Wu JF",
+    "Yang SQ",
+    "Shao CG",
+    "Quan LD",
+    "Tan WH",
+    "Tu LC",
+    "Liu Q",
+    "Xu H",
+    "Liu LX",
+    "Wang QL",
+    "Hu ZK",
+    "Zhou ZB",
+    "Luo PS",
+    "Wu SC",
+    "Milyukov V",
+    "Luo J"
+  ],
+  "journal": "Nature",
+  "volume": 560,
+  "pages": "582-588",
+  "year": 2018,
+  "fetched_date": "2025-12-28",
+  "files": [
+    {
+      "filename": "supplementary_information.pdf",
+      "moesm_id": "MOESM1",
+      "label": "Supplementary Information",
+      "description": "Discussion + tables on methods and corrections",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM1_ESM.pdf",
+      "size_bytes": 2711453,
+      "sha256": "5b61d5c831be98c46e47fcc32f1ade0a680b4af6354d2bc34859d94b22279ffb"
+    },
+    {
+      "filename": "supplementary_data_suppfig1.xlsx",
+      "moesm_id": "MOESM2",
+      "label": "Supplementary Data",
+      "description": "Source data for Supplementary Figure 1 (PSD)",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM2_ESM.xlsx",
+      "size_bytes": 1152664,
+      "sha256": "9e419d1150b6f7897a1352cee50a9721fed48254279e13fe2847200e677547ba"
+    },
+    {
+      "filename": "source_data_fig2.xlsx",
+      "moesm_id": "MOESM3",
+      "label": "Source Data Fig. 2",
+      "description": "ToS period data, G values by fiber, AAF G values by run",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM3_ESM.xlsx",
+      "size_bytes": 4169004,
+      "sha256": "331ea6ee8a6a2558d4f6a8ffa4cd52e4c5d52d47f2e2a697889d0d3c8a3ad27a"
+    },
+    {
+      "filename": "source_data_fig3.xlsx",
+      "moesm_id": "MOESM4",
+      "label": "Source Data Fig. 3",
+      "description": "Historical G compilation",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM4_ESM.xlsx",
+      "size_bytes": 10330,
+      "sha256": "dda202fa672f2524c0cd33eb38c74c67f790ef24842b752afecd46311d7cf2aa"
+    },
+    {
+      "filename": "source_data_extdata_fig2.xlsx",
+      "moesm_id": "MOESM5",
+      "label": "Source Data Extended Data Fig. 2",
+      "description": "Fiber amplitude decay curves",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM5_ESM.xlsx",
+      "size_bytes": 36733,
+      "sha256": "08af72bca3f7861ac63c6e7695687cd71d3a3b9b631187ce9ce1417e09c66da3"
+    },
+    {
+      "filename": "source_data_extdata_fig4.xlsx",
+      "moesm_id": "MOESM6",
+      "label": "Source Data Extended Data Fig. 4",
+      "description": "Temperature vs angular acceleration",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM6_ESM.xlsx",
+      "size_bytes": 15013,
+      "sha256": "8d07c2cdfa92d5ff14a49fd8e0b876089a0df920996638a5c5e6ae5ac309aec7"
+    },
+    {
+      "filename": "source_data_extdata_fig5.xlsx",
+      "moesm_id": "MOESM7",
+      "label": "Source Data Extended Data Fig. 5",
+      "description": "Period near/far with electrostatic tests",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0431-5/MediaObjects/41586_2018_431_MOESM7_ESM.xlsx",
+      "size_bytes": 15635,
+      "sha256": "20081480399f3502894f1658236dd31841ebcbf49fb661aafea7655a66512903"
+    }
+  ],
+  "staged_files": {
+    "fig2_a_tos_period_series1.csv": "ToS period time series (apparatus 1)",
+    "fig2_b_tos_period_series2.csv": "ToS period time series (apparatus 2)",
+    "fig2_c_tos_g_by_fiber.csv": "ToS G values per fiber (7 fibers)",
+    "fig2_f_aaf_g_by_run.csv": "AAF G values per run (29 runs)",
+    "fig3_c_historical_g.csv": "Historical G compilation (17 experiments)",
+    "extdata_fig4_temp_accel.csv": "Temperature vs acceleration data",
+    "extdata_fig5_period_nearfar.csv": "Period near/far with electrostatic tests"
+  }
+}

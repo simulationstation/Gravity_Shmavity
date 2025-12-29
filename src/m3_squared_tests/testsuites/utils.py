@@ -1,11 +1,27 @@
 """Shared utilities for test suites."""
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
-from typing import Optional
+from typing import Any, Optional
 
 import numpy as np
 import pandas as pd
+
+
+def numpy_safe_json(obj: Any) -> str:
+    """JSON dumps with numpy type handling."""
+    def _default(o):
+        if isinstance(o, (np.bool_,)):
+            return bool(o)
+        if isinstance(o, (np.integer,)):
+            return int(o)
+        if isinstance(o, (np.floating,)):
+            return float(o)
+        if isinstance(o, np.ndarray):
+            return o.tolist()
+        raise TypeError(f"Object of type {type(o)} is not JSON serializable")
+    return json.dumps(obj, indent=2, default=_default)
 
 
 @dataclass(frozen=True)
@@ -17,8 +33,10 @@ class ResidualData:
 
 def compute_residuals(df: pd.DataFrame) -> ResidualData:
     df = df.copy()
-    values = df["value"].astype(float).to_numpy()
-    means = df.groupby("dataset_id")["value"].transform("mean").astype(float)
+    # Handle both column naming conventions
+    value_col = "value" if "value" in df.columns else "G_value_1e11"
+    values = df[value_col].astype(float).to_numpy()
+    means = df.groupby("dataset_id")[value_col].transform("mean").astype(float)
     residuals = values - means.to_numpy()
     fractional = residuals / means.to_numpy()
     df["residual"] = residuals

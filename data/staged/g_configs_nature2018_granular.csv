@@ -1,0 +1,11 @@
+dataset_id,config_id,method_id,apparatus,reversal_type,reversal_flag,geometry_mode,notes
+nature2018_li,TOS_fiber_1,time_of_swing,TOS-I,near_far_position,averaged,flat_pendulum,Silica fiber #1
+nature2018_li,TOS_fiber_2,time_of_swing,TOS-I,near_far_position,averaged,flat_pendulum,Silica fiber #2
+nature2018_li,TOS_fiber_3,time_of_swing,TOS-I,near_far_position,averaged,flat_pendulum,Silica fiber #3
+nature2018_li,TOS_fiber_4,time_of_swing,TOS-I,near_far_position,averaged,flat_pendulum,Silica fiber #4
+nature2018_li,TOS_fiber_5,time_of_swing,TOS-II,near_far_position,averaged,flat_pendulum,Silica fiber #5
+nature2018_li,TOS_fiber_6,time_of_swing,TOS-II,near_far_position,averaged,flat_pendulum,Silica fiber #6
+nature2018_li,TOS_fiber_7,time_of_swing,TOS-II,near_far_position,averaged,flat_pendulum,Silica fiber #7
+nature2018_li,AAF_AAF-I,angular_acceleration_feedback,AAF-I,turntable_rotation,averaged,rotating_turntable,AAF configuration AAF-I
+nature2018_li,AAF_AAF-II,angular_acceleration_feedback,AAF-II,turntable_rotation,averaged,rotating_turntable,AAF configuration AAF-II
+nature2018_li,AAF_AAF-III,angular_acceleration_feedback,AAF-III,turntable_rotation,averaged,rotating_turntable,AAF configuration AAF-III

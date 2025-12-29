@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Optional
 
 import typer
 
@@ -46,7 +47,7 @@ def pred1(
 def pred2(
     staged: Path = typer.Option(..., help="Path to staged data directory"),
     out: Path = typer.Option(..., help="Output directory"),
-    topology_map: Path | None = typer.Option(None, help="Optional topology map CSV"),
+    topology_map: Optional[Path] = typer.Option(None, help="Optional topology map CSV"),
 ) -> None:
     data = load_staged(staged)
     run_pred2(data, out, topology_map=topology_map)
@@ -65,7 +66,7 @@ def pred3(
 def pred4(
     staged: Path = typer.Option(..., help="Path to staged data directory"),
     out: Path = typer.Option(..., help="Output directory"),
-    proxy_map: Path | None = typer.Option(None, help="Optional quality proxy map CSV"),
+    proxy_map: Optional[Path] = typer.Option(None, help="Optional quality proxy map CSV"),
 ) -> None:
     data = load_staged(staged)
     run_pred4(data, out, proxy_map=proxy_map)
@@ -93,8 +94,8 @@ def m3fit(
 def run_all(
     staged: Path = typer.Option(..., help="Path to staged data directory"),
     out: Path = typer.Option(..., help="Output directory"),
-    topology_map: Path | None = typer.Option(None, help="Optional topology map CSV"),
-    proxy_map: Path | None = typer.Option(None, help="Optional quality proxy map CSV"),
+    topology_map: Optional[Path] = typer.Option(None, help="Optional topology map CSV"),
+    proxy_map: Optional[Path] = typer.Option(None, help="Optional quality proxy map CSV"),
 ) -> None:
     data = load_staged(staged)
     base = Path(out)
