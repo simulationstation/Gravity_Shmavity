@@ -1,0 +1,18 @@
+# REVERSAL PAIRS FOR PRED1 TESTING
+# Status: NO TRUE REVERSAL PAIRS AVAILABLE
+#
+# This file should contain paired measurements with opposite reversal_flag values.
+# Example: (CW, CCW) or (near, far) for the same config_id and run_id.
+#
+# FINDING: No publicly available G measurement dataset provides reversal-separated values.
+# All experiments report only the reversal-averaged G value.
+#
+# CONSEQUENCE: pred1 (sign-blind reversal invariance) CANNOT be tested with public data.
+#
+# ALTERNATIVE APPROACHES:
+# 1. Method-separation proxy: ToS vs AAF in Nature 2018 (delta ~ 0.84 * alpha^2)
+# 2. Contact authors for raw period data (T_near, T_far before differencing)
+# 3. Temporal analysis of TR&D-96 26-run time series
+#
+dataset_id,pair_id,config_id,run_id_A,run_id_B,reversal_flag_A,reversal_flag_B,value_A,value_B,delta,abs_delta,sigma_delta,notes
+# NO PAIRS - ALL DATA IS REVERSAL-AVERAGED

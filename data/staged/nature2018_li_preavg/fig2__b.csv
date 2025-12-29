@@ -1,0 +1,11 @@
+time_near_day,T_near_s,time_far_day,T_far_s,fiber_id,source_file,source_sheet,pair_id
+1.4943091,432.78171,4.4946665,432.78079,2,source_data_fig2.xlsx,b,1
+7.4926322,432.78083,10.495516,432.77988,2,source_data_fig2.xlsx,b,2
+13.933902,432.77994,16.495647,432.7791,2,source_data_fig2.xlsx,b,3
+19.699009,432.77931,22.496557,432.77842,2,source_data_fig2.xlsx,b,4
+25.496901,432.7786,28.497569,432.77794,2,source_data_fig2.xlsx,b,5
+31.495019,432.77817,34.500674,432.77739,2,source_data_fig2.xlsx,b,6
+37.498705,432.77764,40.498514,432.77686,2,source_data_fig2.xlsx,b,7
+43.496868,432.77715,46.499046,432.77654,2,source_data_fig2.xlsx,b,8
+49.500271,432.77686,52.494783,432.7762,2,source_data_fig2.xlsx,b,9
+55.47838,432.77663,58.503525,432.77587,2,source_data_fig2.xlsx,b,10

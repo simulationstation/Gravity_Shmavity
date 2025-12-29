@@ -1,0 +1,25 @@
+condition,time_near_day,T_near_s,time_far_day,T_far_s,source_file,source_sheet,pair_id
+Ground,7.4989407,431.48941,10.499746,433.19044,source_data_extdata_fig5.xlsx,c,1
+Ground,13.500955,431.48898,16.499952,433.18997,source_data_extdata_fig5.xlsx,c,2
+Ground,19.500475,431.4885,22.50054,433.18942,source_data_extdata_fig5.xlsx,c,3
+Ground,25.500808,431.48798,28.502912,433.18895,source_data_extdata_fig5.xlsx,c,4
+Ground,31.500411,431.48754,34.506158,433.18861,source_data_extdata_fig5.xlsx,c,5
+Ground,37.496065,431.48721,40.499342,433.18826,source_data_extdata_fig5.xlsx,c,6
+Ground,43.498436,431.48694,46.497191,433.18798,source_data_extdata_fig5.xlsx,c,7
+Ground,49.500468,431.48658,52.504199,433.18771,source_data_extdata_fig5.xlsx,c,8
+Ground,55.499409,431.48641,58.503031,433.18747,source_data_extdata_fig5.xlsx,c,9
+Ground,61.503058,431.48618,64.498222,433.18733,source_data_extdata_fig5.xlsx,c,10
+0.1V,70.5009874,431.48307,73.4984991,433.18421,source_data_extdata_fig5.xlsx,c,11
+0.1V,76.506506,431.48295,79.502756,433.184,source_data_extdata_fig5.xlsx,c,12
+0.1V,82.555592,431.48277,85.500793,433.18388,source_data_extdata_fig5.xlsx,c,13
+0.1V,88.502513,431.48273,91.497381,433.18383,source_data_extdata_fig5.xlsx,c,14
+-0.1 V,99.078452,431.48802,102.102652,433.1891,source_data_extdata_fig5.xlsx,c,15
+-0.1 V,105.044446,431.48787,107.994663,433.18915,source_data_extdata_fig5.xlsx,c,16
+-0.1 V,111.00247,431.48797,114.005392,433.18921,source_data_extdata_fig5.xlsx,c,17
+-0.1 V,117.0022,431.48804,120.001394,433.18925,source_data_extdata_fig5.xlsx,c,18
+-0.1 V,122.996877,431.48808,126.012296,433.18935,source_data_extdata_fig5.xlsx,c,19
+Ground,131.9967477,431.48528,134.9984693,433.18647,source_data_extdata_fig5.xlsx,c,20
+Ground,138.002638,431.48534,141.007003,433.18654,source_data_extdata_fig5.xlsx,c,21
+Ground,144.001962,431.48537,146.998899,433.18667,source_data_extdata_fig5.xlsx,c,22
+Ground,150.785458,431.4855,153.003492,433.18671,source_data_extdata_fig5.xlsx,c,23
+Ground,155.997887,431.48555,159.008198,433.18678,source_data_extdata_fig5.xlsx,c,24

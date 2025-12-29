@@ -1,0 +1,49 @@
+# REVERSAL-SEPARATED DATA FOR PRED1
+# Status: NO TRUE REVERSAL-SEPARATED DATA FOUND
+#
+# This file contains the closest available proxy data:
+# - TR&D-96: 26 individual G measurements over 10 years (NOT reversal-separated within runs)
+# - Nature 2018: 36 measurements (ToS/AAF method-separated, NOT CW/CCW reversal-separated)
+#
+# The reversal_flag column is set to "averaged" for all rows because:
+# All publicly available G measurements report reversal-averaged values only.
+# True CW/CCW or near/far separated G values are never published.
+#
+dataset_id,method_id,config_id,run_id,point_index,reversal_flag,G_value_1e11,G_sigma_1e11,units,notes
+trd96,time_of_swing,torsion_balance_mixed,1,1,averaged,6.6730,0.00060,m3 kg-1 s-2,TR&D Moscow 1985-04-19
+trd96,time_of_swing,torsion_balance_mixed,2,2,averaged,6.6730,0.00043,m3 kg-1 s-2,TR&D Moscow 1985-06-29
+trd96,time_of_swing,torsion_balance_mixed,3,3,averaged,6.6730,0.00043,m3 kg-1 s-2,TR&D Moscow 1985-12-11
+trd96,time_of_swing,torsion_balance_mixed,4,4,averaged,6.6730,0.00029,m3 kg-1 s-2,TR&D Moscow 1986-03-25
+trd96,time_of_swing,torsion_balance_mixed,5,5,averaged,6.6732,0.00093,m3 kg-1 s-2,TR&D Moscow 1987-01-04
+trd96,time_of_swing,torsion_balance_mixed,6,6,averaged,6.6729,0.00030,m3 kg-1 s-2,TR&D Moscow 1987-03-03
+trd96,time_of_swing,torsion_balance_mixed,7,7,averaged,6.6729,0.00060,m3 kg-1 s-2,TR&D Moscow 1987-07-14
+trd96,time_of_swing,torsion_balance_mixed,8,8,averaged,6.6730,0.00017,m3 kg-1 s-2,TR&D Moscow 1987-07-22
+trd96,time_of_swing,torsion_balance_mixed,9,9,averaged,6.6729,0.00051,m3 kg-1 s-2,TR&D Moscow 1987-09-24
+trd96,time_of_swing,torsion_balance_mixed,10,10,averaged,6.6729,0.00030,m3 kg-1 s-2,TR&D Moscow 1987-11-11
+trd96,time_of_swing,torsion_balance_mixed,11,11,averaged,6.6727,0.00035,m3 kg-1 s-2,TR&D Moscow 1988-08-02
+trd96,time_of_swing,torsion_balance_mixed,12,12,averaged,6.6729,0.00018,m3 kg-1 s-2,TR&D Moscow 1988-08-05
+trd96,time_of_swing,torsion_balance_mixed,13,13,averaged,6.6730,0.00015,m3 kg-1 s-2,TR&D Moscow 1989-03-09
+trd96,time_of_swing,torsion_balance_mixed,14,14,averaged,6.6729,0.00022,m3 kg-1 s-2,TR&D Moscow 1989-06-06
+trd96,time_of_swing,torsion_balance_mixed,15,15,averaged,6.6727,0.00019,m3 kg-1 s-2,TR&D Moscow 1989-06-20
+trd96,time_of_swing,torsion_balance_mixed,16,16,averaged,6.6730,0.00009,m3 kg-1 s-2,TR&D Moscow 1990-11-13
+trd96,time_of_swing,torsion_balance_mixed,17,17,averaged,6.6730,0.00013,m3 kg-1 s-2,TR&D Moscow 1993-03-21
+trd96,time_of_swing,torsion_balance_mixed,18,18,averaged,6.6729,0.00034,m3 kg-1 s-2,TR&D Moscow 1993-06-22
+trd96,time_of_swing,torsion_balance_mixed,19,19,averaged,6.6729,0.00017,m3 kg-1 s-2,TR&D Moscow 1993-11-30
+trd96,time_of_swing,torsion_balance_mixed,20,20,averaged,6.6728,0.00006,m3 kg-1 s-2,TR&D Moscow 1994-07-05
+trd96,time_of_swing,torsion_balance_mixed,21,21,averaged,6.6729,0.00009,m3 kg-1 s-2,TR&D Moscow 1994-12-20
+trd96,time_of_swing,torsion_balance_mixed,22,22,averaged,6.6729,0.00013,m3 kg-1 s-2,TR&D Moscow 1995-02-06
+trd96,time_of_swing,torsion_balance_mixed,23,23,averaged,6.6730,0.00008,m3 kg-1 s-2,TR&D Moscow 1995-05-25
+trd96,time_of_swing,torsion_balance_mixed,24,24,averaged,6.6730,0.00038,m3 kg-1 s-2,TR&D Moscow 1995-06-14
+trd96,time_of_swing,torsion_balance_mixed,25,25,averaged,6.6730,0.00017,m3 kg-1 s-2,TR&D Moscow 1995-08-24
+trd96,time_of_swing,torsion_balance_mixed,26,26,averaged,6.6727,0.00007,m3 kg-1 s-2,TR&D Moscow 1995-10-19
+nature2018_li,time_of_swing,TOS_fiber_1,1,27,averaged,6.674154,0.000095,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_2,2,28,averaged,6.674222,0.000098,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_3,3,29,averaged,6.674237,0.000219,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_4,4,30,averaged,6.674274,0.000103,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_5,5,31,averaged,6.674266,0.000094,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_6,6,32,averaged,6.674017,0.000117,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,time_of_swing,TOS_fiber_7,7,33,averaged,6.674105,0.000116,m3 kg-1 s-2,Li et al Nature 2018 ToS
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,1,34,averaged,6.674534,0.000104,m3 kg-1 s-2,Li et al Nature 2018 AAF
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,2,35,averaged,6.674585,0.000099,m3 kg-1 s-2,Li et al Nature 2018 AAF
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,3,36,averaged,6.674473,0.000107,m3 kg-1 s-2,Li et al Nature 2018 AAF
+nature2018_li,angular_acceleration_feedback,AAF_AAF-I,4,37,averaged,6.674543,0.000095,m3 kg-1 s-2,Li et al Nature 2018 AAF

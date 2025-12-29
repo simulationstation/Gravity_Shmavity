@@ -1,0 +1,59 @@
+{
+  "dataset_id": "schlamminger2015",
+  "title": "Recent measurements of the gravitational constant as a function of time",
+  "authors": ["S. Schlamminger", "J.H. Gundlach", "R.D. Newman"],
+  "year": 2015,
+  "source": "arXiv:1505.01774v2",
+  "doi": null,
+  "url": "https://arxiv.org/abs/1505.01774",
+  "download_date": "2025-12-28",
+  "files": [
+    {
+      "filename": "arxiv1505.01774.pdf",
+      "size_bytes": 166489,
+      "sha256": "8232a4e26b85de953c14a0cdc4d5a5245539aa2e749f09f99af64487cf369811"
+    }
+  ],
+  "tables_extracted": [
+    {
+      "table_id": "Table_I",
+      "description": "TR&D-96 individual G measurements 1985-1995",
+      "n_rows": 26,
+      "output_file": "trd96_individual_runs.csv"
+    },
+    {
+      "table_id": "Table_II",
+      "description": "Summary of precision G measurements 1980-2014",
+      "n_rows": 21,
+      "output_file": "g_measurements_compilation.csv"
+    }
+  ],
+  "data_type": "individual_run_G_values",
+  "reversal_separated": false,
+  "reversal_notes": "Each G value is already reversal-averaged within the experiment. Table I provides individual run data over 10 years using 3 different torsion balances.",
+  "columns_extracted": {
+    "trd96_individual_runs.csv": [
+      "dataset_id",
+      "config_id",
+      "run_id",
+      "date",
+      "G_value_1e11",
+      "G_sigma_1e11",
+      "units",
+      "notes"
+    ],
+    "g_measurements_compilation.csv": [
+      "dataset_id",
+      "identifier",
+      "G_value_1e11",
+      "G_sigma_1e11",
+      "date_start",
+      "date_end",
+      "date_avg",
+      "duration_days",
+      "device",
+      "mode",
+      "units"
+    ]
+  }
+}

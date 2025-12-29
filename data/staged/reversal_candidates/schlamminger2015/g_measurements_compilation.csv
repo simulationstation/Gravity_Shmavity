@@ -1,0 +1,22 @@
+dataset_id,identifier,G_value_1e11,G_sigma_1e11,date_start,date_end,date_avg,duration_days,device,mode,units
+compilation,NIST-82,6.6726,0.0005,1980-08-29,1980-10-10,1980-09-19,42,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,TR&D-96,6.6729,0.0005,1985-04-19,1995-10-19,1990-06-09,3835,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,LANL-97,6.6740,0.0007,1996-01-01,1996-05-31,1996-03-15,151,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,UW-00,6.674255,0.000092,2000-03-10,2000-04-18,2000-03-29,39,torsion_balance,acceleration_servo,m3 kg-1 s-2
+compilation,BIPM-01s,6.67553,0.00040,2000-09-29,2000-11-02,2000-10-16,34,torsion_balance,electrostatic_servo,m3 kg-1 s-2
+compilation,BIPM-01c,6.67565,0.00045,2000-11-25,2000-12-13,2000-12-04,18,torsion_balance,Cavendish,m3 kg-1 s-2
+compilation,BIPM-01sc,6.67559,0.00027,2000-09-29,2000-12-13,2000-11-02,75,torsion_balance,Cavendish_servo,m3 kg-1 s-2
+compilation,UWUP-02,6.67422,0.00098,2001-01-12,2001-06-29,2001-03-06,168,two_pendulums,interferometry,m3 kg-1 s-2
+compilation,MSL-03,6.67387,0.00027,2002-03-21,2002-11-01,2002-07-11,225,torsion_balance,electrostatic_servo,m3 kg-1 s-2
+compilation,HUST-05,6.6723,0.0009,1997-08-04,1997-10-15,1997-09-09,72,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,UZH-06,6.67425,0.00012,2001-07-31,2001-08-21,2001-08-21,21,beam_balance,weighing,m3 kg-1 s-2
+compilation,HUST-09a,6.67352,0.00019,2007-03-21,2007-05-20,2007-04-20,60,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,HUST-09b,6.67346,0.00021,2008-10-08,2008-11-16,2008-10-27,39,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,JILA-10,6.67234,0.00014,2004-05-12,2004-06-06,2004-05-28,25,two_pendulums,interferometry,m3 kg-1 s-2
+compilation,BIPM-13s,6.67515,0.00041,2007-11-08,2008-01-16,2007-12-15,69,torsion_balance,electrostatic_servo,m3 kg-1 s-2
+compilation,BIPM-13c,6.67586,0.00036,2007-08-31,2007-09-10,2007-09-05,10,torsion_balance,Cavendish,m3 kg-1 s-2
+compilation,BIPM-13sc,6.67554,0.00016,2007-08-31,2008-01-16,2007-10-25,138,torsion_balance,Cavendish_servo,m3 kg-1 s-2
+compilation,UCI-14a,6.67435,0.00010,2000-10-04,2000-11-11,2000-10-23,38,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,UCI-14b,6.67408,0.00015,2002-03-25,2002-05-12,2002-04-18,48,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,UCI-14c,6.67455,0.00013,2006-04-08,2006-05-14,2006-04-26,36,torsion_balance,time-of-swing,m3 kg-1 s-2
+compilation,LENS-14,6.67191,0.00099,2013-07-05,2013-07-12,2013-07-08,7,atom_interferometer,phase_shift,m3 kg-1 s-2

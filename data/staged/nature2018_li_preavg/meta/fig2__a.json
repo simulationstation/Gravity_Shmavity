@@ -1,0 +1,21 @@
+{
+  "source_file": "source_data_fig2.xlsx",
+  "source_sheet": "a",
+  "description": "Period time series for ToS Fiber 1",
+  "columns": {
+    "time_near_day": "Time of near measurement (days)",
+    "T_near_s": "Period at near position (seconds)",
+    "time_far_day": "Time of far measurement (days)",
+    "T_far_s": "Period at far position (seconds)",
+    "fiber_id": "Fiber identifier"
+  },
+  "units": {
+    "T_near_s": "s",
+    "T_far_s": "s",
+    "time": "day"
+  },
+  "n_rows": 10,
+  "pairing_method": "temporal_proximity",
+  "pairing_confidence": "HIGH",
+  "notes": "Near and far measurements are interleaved ~3 days apart"
+}

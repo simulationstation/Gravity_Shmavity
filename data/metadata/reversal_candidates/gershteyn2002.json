@@ -1,0 +1,29 @@
+{
+  "dataset_id": "gershteyn2002",
+  "title": "Experimental evidence that the gravitational constant varies with orientation",
+  "authors": ["Mikhail L. Gershteyn", "Lev I. Gershteyn", "Arkady Gershteyn", "Oleg V. Karagioz"],
+  "year": 2002,
+  "source": "arXiv:physics/0202058",
+  "doi": null,
+  "url": "https://arxiv.org/abs/physics/0202058",
+  "download_date": "2025-12-28",
+  "files": [
+    {
+      "filename": "physics0202058.pdf",
+      "size_bytes": 276112,
+      "sha256": "379dcb6236e8e9b7115deb802a7da11a153a67c8228249055bf3a8e95cf5c911"
+    }
+  ],
+  "tables_extracted": [],
+  "data_type": "spectral_analysis_only",
+  "reversal_separated": false,
+  "reversal_notes": "Paper claims 0.054% G variation with sidereal period but does NOT publish raw G time-series data. Only periodograms and summary statistics are provided. Cannot extract usable individual measurements.",
+  "claims": {
+    "G_anisotropy": "0.054%",
+    "period_detected": "23.89 hours (sidereal day)",
+    "measurement_duration": "7 months",
+    "method": "dynamic torsion balance"
+  },
+  "usable_for_pred1": false,
+  "reason_unusable": "Raw G measurements not published; only spectral analysis results available"
+}

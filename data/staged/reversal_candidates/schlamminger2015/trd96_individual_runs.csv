@@ -1,0 +1,27 @@
+dataset_id,config_id,run_id,date,G_value_1e11,G_sigma_1e11,units,notes
+trd96,torsion_balance_mixed,1,1985-04-19,6.6730,0.00060,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,2,1985-06-29,6.6730,0.00043,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,3,1985-12-11,6.6730,0.00043,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,4,1986-03-25,6.6730,0.00029,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,5,1987-01-04,6.6732,0.00093,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,6,1987-03-03,6.6729,0.00030,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,7,1987-07-14,6.6729,0.00060,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,8,1987-07-22,6.6730,0.00017,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,9,1987-09-24,6.6729,0.00051,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,10,1987-11-11,6.6729,0.00030,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,11,1988-08-02,6.6727,0.00035,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,12,1988-08-05,6.6729,0.00018,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,13,1989-03-09,6.6730,0.00015,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,14,1989-06-06,6.6729,0.00022,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,15,1989-06-20,6.6727,0.00019,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,16,1990-11-13,6.6730,0.00009,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,17,1993-03-21,6.6730,0.00013,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,18,1993-06-22,6.6729,0.00034,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,19,1993-11-30,6.6729,0.00017,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,20,1994-07-05,6.6728,0.00006,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,21,1994-12-20,6.6729,0.00009,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,22,1995-02-06,6.6729,0.00013,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,23,1995-05-25,6.6730,0.00008,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,24,1995-06-14,6.6730,0.00038,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,25,1995-08-24,6.6730,0.00017,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow
+trd96,torsion_balance_mixed,26,1995-10-19,6.6727,0.00007,m3 kg-1 s-2,Karagioz & Izmailov TR&D Moscow

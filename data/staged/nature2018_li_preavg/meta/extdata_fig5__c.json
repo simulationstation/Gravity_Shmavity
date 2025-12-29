@@ -1,0 +1,20 @@
+{
+  "source_file": "source_data_extdata_fig5.xlsx",
+  "source_sheet": "c",
+  "description": "Period measurements at near and far source mass positions",
+  "columns": {
+    "condition": "Voltage condition (Ground, 0.1V, -0.1V)",
+    "time_near_day": "Time of near measurement (days)",
+    "T_near_s": "Period at near position (seconds)",
+    "time_far_day": "Time of far measurement (days)",
+    "T_far_s": "Period at far position (seconds)"
+  },
+  "units": {
+    "T_near_s": "s",
+    "T_far_s": "s",
+    "time": "day"
+  },
+  "n_rows": 24,
+  "pairing_method": "same_row",
+  "pairing_confidence": "HIGH"
+}
